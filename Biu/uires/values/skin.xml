@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<skin>
+  <colorrect name="round_rect" cornerRadius="1" normal="#00ffff" hover="#00ff00" pushdown="#f0f0f0" disable="#ff0000"/>
+  <colorrect name="menu_sep_red"  normal="#fff5f5f5" hover="#00ff00" pushdown="#f0f0f0" disable="#ff0000"/>
+  
+  <colorrect name="menu_item"  normal="#ffffff" hover="#8dc3ff" pushdown="#d0d0d0" disable="#ff0000"/>
+  <colorrect name="caption_skin"  normal="rgb(36, 180, 126)"  />
+  
+  <colorrect name="menu_sep"  normal="#f0f0f0" hover="#f5f5f5" pushdown="#f0f0f0" />
+
+  <imgframe name="menu_border" src="image:menu_border" left="4" top="4" right="4" bottom="4" />
+  <imgframe name="menu_shadow" src="image:menu_shadow" left="30" top="30" right="30" bottom="30"/>
+  <imgframe name="_skin.shadow" src="IMG:ID_PNG_SHADOW" left="5" top="3" right="5" bottom="7"/>
+	<imglist name="skin_traymenu_icons" src="img:traymenu_icons" states="9" />
+  
+  
+  
+	<imgframe name="menu_bk" scale="100"  src="image:menu_bk" left="13dp" top="13dp" right="13dp" bottom="13dp" states="1" enableColorize="0" />
+  <imgframe name="menu_bk" scale="125" src="image:menu_bk_125" left="13dp" top="13dp" right="13dp" bottom="13dp" states="1" enableColorize="0" />
+  <imgframe name="menu_bk" scale="150" src="image:menu_bk_150" left="13dp" top="13dp" right="13dp" bottom="13dp" states="1" enableColorize="0" />
+  <imgframe name="menu_bk" scale="175" src="image:menu_bk_175" left="13dp" top="13dp" right="13dp" bottom="13dp" states="1" enableColorize="0" />
+  <imgframe name="menu_bk" scale="200" src="image:menu_bk_200" left="13dp" top="13dp" right="13dp" bottom="13dp" states="1" enableColorize="0" />
+
+
+
+
+  <menuarrow name="menu_expand" scale="100" src="image:menu_expand" states="1" enableColorize="0" />
+  <menuarrow name="menu_expand" scale="125"  src="image:menu_expand_125" states="1" enableColorize="0" />
+  <menuarrow name="menu_expand" scale="150" src="image:menu_expand_150" states="1" enableColorize="0" />
+  <menuarrow name="menu_expand" scale="175" src="image:menu_expand_175" states="1" enableColorize="0" />
+  <menuarrow name="menu_expand" scale="200" src="image:menu_expand_200" states="1" enableColorize="0" />
+  
+  
+  
+	<imgframe name="shadow_menu2" src="image:shadow_menu2"  left="5dp" top="5dp" right="5dp" bottom="5dp" states="1" enableColorize="0" />
+  
+  
+	<imglist name="soui" src="image:soui" states="1" enableColorize="0" />
+  
+	<imglist name="sys_btn_close" scale="100" src="image:sys_btn_close" states="3" enableColorize="0" />
+	<imglist name="sys_btn_close" scale="125" src="image:sys_btn_close_125" states="3" enableColorize="0" />
+	<imglist name="sys_btn_close" scale="150" src="image:sys_btn_close_150" states="3" enableColorize="0" />
+	<imglist name="sys_btn_close" scale="175" src="image:sys_btn_close_175" states="3" enableColorize="0" />
+	<imglist name="sys_btn_close" scale="200" src="image:sys_btn_close_200" states="3" enableColorize="0" />
+	<imglist name="sys_btn_max" scale="100" src="image:sys_btn_max" states="3" enableColorize="0" />
+	<imglist name="sys_btn_max" scale="125" src="image:sys_btn_max_125" states="3" enableColorize="0" />
+	<imglist name="sys_btn_max" scale="150" src="image:sys_btn_max_150" states="3" enableColorize="0" />
+	<imglist name="sys_btn_max" scale="175" src="image:sys_btn_max_175" states="3" enableColorize="0" />
+	<imglist name="sys_btn_max" scale="200" src="image:sys_btn_max_200" states="3" enableColorize="0" />
+	<imglist name="sys_btn_min" scale="100" src="image:sys_btn_min" states="3" enableColorize="0" />
+	<imglist name="sys_btn_min" scale="125" src="image:sys_btn_min_125" states="3" enableColorize="0" />
+	<imglist name="sys_btn_min" scale="150" src="image:sys_btn_min_150" states="3" enableColorize="0" />
+	<imglist name="sys_btn_min" scale="175" src="image:sys_btn_min_175" states="3" enableColorize="0" />
+	<imglist name="sys_btn_min" scale="200" src="image:sys_btn_min_200" states="3" enableColorize="0" />
+	<imglist name="sys_btn_restore" scale="100" src="image:sys_btn_restore" states="3" enableColorize="0" />
+	<imglist name="sys_btn_restore" scale="125" src="image:sys_btn_restore_125" states="3" enableColorize="0" />
+	<imglist name="sys_btn_restore" scale="150" src="image:sys_btn_restore_150" states="3" enableColorize="0" />
+	<imglist name="sys_btn_restore" scale="175" src="image:sys_btn_restore_175" states="3" enableColorize="0" />
+	<imglist name="sys_btn_restore" scale="200" src="image:sys_btn_restore_200" states="3" enableColorize="0" />
+
+  <imglist name="sys_btn_menu" scale="100" src="image:sys_btn_menu" states="3" enableColorize="0" />
+  <imglist name="sys_btn_menu" scale="125" src="image:sys_btn_menu_125" states="3" enableColorize="0" />
+  <imglist name="sys_btn_menu" scale="150" src="image:sys_btn_menu_150" states="3" enableColorize="0" />
+  <imglist name="sys_btn_menu" scale="175" src="image:sys_btn_menu_175" states="3" enableColorize="0" />
+  <imglist name="sys_btn_menu" scale="200" src="image:sys_btn_menu_200" states="3" enableColorize="0" />
+  
+	<imglist name="title_icon" scale="100" src="image:title_icon" states="1" enableColorize="0" />
+	<imglist name="title_icon" scale="125" src="image:title_icon_125" states="1" enableColorize="0" />
+	<imglist name="title_icon" scale="150" src="image:title_icon_150" states="1" enableColorize="0" />
+	<imglist name="title_icon" scale="175" src="image:title_icon_175" states="1" enableColorize="0" />
+	<imglist name="title_icon" scale="200" src="image:title_icon_200" states="1" enableColorize="0" />
+  
+  
+  <imglist name="star" scale="100" src="image:star" states="1" enableColorize="0" />
+	<imglist name="star" scale="125" src="image:star_125" states="1" enableColorize="0" />
+	<imglist name="star" scale="150" src="image:star_150" states="1" enableColorize="0" />
+	<imglist name="star" scale="175" src="image:star_175" states="1" enableColorize="0" />
+	<imglist name="star" scale="200" src="image:star_200" states="1" enableColorize="0" />
+
+
+  <imglist name="star2" scale="100" src="image:star2" states="1" enableColorize="0" />
+  <imglist name="star2" scale="125" src="image:star2_125" states="1" enableColorize="0" />
+  <imglist name="star2" scale="150" src="image:star2_150" states="1" enableColorize="0" />
+  <imglist name="star2" scale="175" src="image:star2_175" states="1" enableColorize="0" />
+  <imglist name="star2" scale="200" src="image:star2_200" states="1" enableColorize="0" />
+
+  <imglist name="menu_icon" scale="100" src="image:menu_icon" states="4" enableColorize="0" />
+  <imglist name="menu_icon" scale="125" src="image:menu_icon_125" states="4" enableColorize="0" />
+  <imglist name="menu_icon" scale="150" src="image:menu_icon_150" states="4" enableColorize="0" />
+  <imglist name="menu_icon" scale="175" src="image:menu_icon_175" states="4" enableColorize="0" />
+  <imglist name="menu_icon" scale="200" src="image:menu_icon_200" states="4" enableColorize="0" />
+  
+  
+	<imglist name="traymenu_icons" scale="100" src="image:traymenu_icons" states="1" enableColorize="0" />
+  
+</skin>

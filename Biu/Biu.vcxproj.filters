@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c4736f3b-1e42-46fa-9074-883820888d19}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a482b173-6303-49da-869c-6c771d0ab75f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{872f0eb8-d5bf-4252-ba7b-a14051d0d5d1}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="SoUI Resouece">
+      <UniqueIdentifier>{751b4b2d-ef2d-46b0-a0ad-77716cfdaa07}</UniqueIdentifier>
+      <Extensions>idx;xml;png;gif;jpg;ico;lua;bmp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="license.txt" />
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Biu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trayicon\SShellNotifyIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MySkin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\SOUI\controls.extend\SIECtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\SOUI\controls.extend\SWkeWebkit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\SOUI\controls.extend\SDocHostUIHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuWndHook2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WndShadow2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CefBrowserWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CefRealWndHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCefBrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appshell\appshell_extensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appshell\appshell_extensions_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appshell\appshell_helpers_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appshell\appshell_node_process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appshell\appshell_node_process_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appshell\cefclient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appshell\client_app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appshell\client_app_delegates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appshell\client_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appshell\client_handler_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appshell\native_menu_model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appshell\common\client_switches.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Biu.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trayicon\SShellNotifyIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MySkin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuWndHook2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WndShadow2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CefBrowserWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CefRealWndHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SCefBrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appshell\appshell_extension_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appshell\appshell_extensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appshell\appshell_extensions_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appshell\appshell_helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appshell\appshell_node_process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appshell\appshell_node_process_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appshell\cefclient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appshell\client_app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appshell\client_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appshell\command_callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appshell\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appshell\native_menu_model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appshell\common\client_switches.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appshell\cef_buffered_dc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\soui_res.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="appshell\appshell_extensions.js" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="html1.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="uires\uidef\init.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\values\color.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\values\skin.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\values\string.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\xml\dlg_main.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\Translator\lang_cn.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\Translator\lang_jp.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\smenu\menu_lang.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\smenu\menu_tray.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="uires\image\soui.ico">
+      <Filter>SoUI Resouece</Filter>
+    </Image>
+    <Image Include="uires\image\traymenu_icons.png">
+      <Filter>SoUI Resouece</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="uires\uires.idx">
+      <Filter>SoUI Resouece</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

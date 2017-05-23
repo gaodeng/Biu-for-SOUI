@@ -1,0 +1,26 @@
+﻿<menuRoot skin="menu_bk" trCtx="dlg_main" itemHeight="30dp"  font="face:微软雅黑,adding:-3" itemSkin="menu_item"   colorText="#1F2D3D" arrowSkin="menu_expand" iconSkin="menu_icon" sepSkin="menu_sep" subMenuOffset="-10dp" iconPos="0dp,4dp" textOffset="20dp" margin="4dp,8dp,4dp,8dp" >
+
+   
+  <menuItem text="language 很长很长的菜单标题" id="50"   >
+    
+    <menuItem id="100" inset="0dp,0dp,40dp,0dp" >chinese 很长很长的菜单标题</menuItem>
+    <menuItem id="101" >english</menuItem>
+     
+  </menuItem>
+  <menuItem  id="50" icon="0" disable="1">
+    分享
+  </menuItem>
+  <menuItem  id="50" icon="3" >
+    打开文件夹
+    
+  </menuItem>
+  <sep  />
+  <menuItem  id="50" icon="1" >
+    下载
+  </menuItem>
+  <sep size="-1,5dp" margin="45dp,2dp,20dp,2dp"/>
+  <menuItem text="setting" id="50"  >
+  </menuItem>
+
+
+</menuRoot>

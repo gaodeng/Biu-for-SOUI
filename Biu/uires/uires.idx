@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<resource>
+	<UIDEF>
+		<file name="XML_INIT" path="uidef\init.xml" />
+	</UIDEF>
+	<LAYOUT>
+		<file name="XML_MAINWND" path="xml\dlg_main.xml" />
+	</LAYOUT>
+	<values>
+		<file name="string" path="values\string.xml" />
+		<file name="color" path="values\color.xml" />
+		<file name="skin" path="values\skin.xml" />
+	</values>
+	<IMG>
+		<file name="traymenu_icons" path="image\traymenu_icons.png" />
+    <file name="ID_PNG_SHADOW" path="image\shadow.png"/>
+	</IMG>
+	<ICON>
+		<file name="ICON_LOGO" path="image\Biu.ico" />
+	</ICON>
+	<translator>
+		<file name="lang_cn" path="translator\lang_cn.xml" />
+		<file name="lang_jp" path="translator\lang_jp.xml" />
+	</translator>
+	<SMENU>
+		
+	</SMENU>
+  <smenu>
+    <file name="menu_lang" path="smenu\menu_lang.xml"/>
+    <file name="menu_tray" path="smenu\menu_tray.xml" />
+  </smenu>
+	<layout />
+	<icon />
+	<imgx />
+	<image>
+		<file name="menu_bk" path="image\menu_bk.png" />
+		<file name="menu_bk_125" path="image\menu_bk_125.png" />
+		<file name="menu_bk_150" path="image\menu_bk_150.png" />
+		<file name="menu_bk_175" path="image\menu_bk_175.png" />
+		<file name="menu_bk_200" path="image\menu_bk_200.png" />
+		<file name="menu_expand" path="image\menu_expand.png" />
+		<file name="menu_expand_125" path="image\menu_expand_125.png" />
+		<file name="menu_expand_150" path="image\menu_expand_150.png" />
+		<file name="menu_expand_175" path="image\menu_expand_175.png" />
+		<file name="menu_expand_200" path="image\menu_expand_200.png" />
+		<file name="shadow_menu2" path="image\shadow_menu2.png" />
+		<file name="soui" path="image\Biu.ico" />
+		<file name="sys_btn_close" path="image\sys_btn_close.png" />
+		<file name="sys_btn_close_125" path="image\sys_btn_close_125.png" />
+		<file name="sys_btn_close_150" path="image\sys_btn_close_150.png" />
+		<file name="sys_btn_close_175" path="image\sys_btn_close_175.png" />
+		<file name="sys_btn_close_200" path="image\sys_btn_close_200.png" />
+		<file name="sys_btn_max" path="image\sys_btn_max.png" />
+		<file name="sys_btn_max_125" path="image\sys_btn_max_125.png" />
+		<file name="sys_btn_max_150" path="image\sys_btn_max_150.png" />
+		<file name="sys_btn_max_175" path="image\sys_btn_max_175.png" />
+		<file name="sys_btn_max_200" path="image\sys_btn_max_200.png" />
+		<file name="sys_btn_min" path="image\sys_btn_min.png" />
+		<file name="sys_btn_min_125" path="image\sys_btn_min_125.png" />
+		<file name="sys_btn_min_150" path="image\sys_btn_min_150.png" />
+		<file name="sys_btn_min_175" path="image\sys_btn_min_175.png" />
+		<file name="sys_btn_min_200" path="image\sys_btn_min_200.png" />
+		<file name="sys_btn_restore" path="image\sys_btn_restore.png" />
+		<file name="sys_btn_restore_125" path="image\sys_btn_restore_125.png" />
+		<file name="sys_btn_restore_150" path="image\sys_btn_restore_150.png" />
+		<file name="sys_btn_restore_175" path="image\sys_btn_restore_175.png" />
+		<file name="sys_btn_restore_200" path="image\sys_btn_restore_200.png" />
+
+    <file name="sys_btn_menu" path="image\skin_menu.png" />
+    <file name="sys_btn_menu_125" path="image\skin_menu_125.png" />
+    <file name="sys_btn_menu_150" path="image\skin_menu_150.png" />
+    <file name="sys_btn_menu_175" path="image\skin_menu_175.png" />
+    <file name="sys_btn_menu_200" path="image\skin_menu_200.png" />
+
+
+    <file name="star" path="image\star.png" />
+    <file name="star_125" path="image\star_125.png" />
+    <file name="star_150" path="image\star_150.png" />
+    <file name="star_175" path="image\star_175.png" />
+    <file name="star_200" path="image\star_200.png" />
+
+    <file name="star2" path="image\star2.png" />
+    <file name="star2_125" path="image\star2_125.png" />
+    <file name="star2_150" path="image\star2_150.png" />
+    <file name="star2_175" path="image\star2_175.png" />
+    <file name="star2_200" path="image\star2_200.png" />
+
+
+    <file name="menu_icon" path="image\menu_icon.png" />
+    <file name="menu_icon_125" path="image\menu_icon_125.png" />
+    <file name="menu_icon_150" path="image\menu_icon_150.png" />
+    <file name="menu_icon_175" path="image\menu_icon_175.png" />
+    <file name="menu_icon_200" path="image\menu_icon_200.png" />
+    
+    <file name="title_icon" path="image\title_icon.png" />
+		<file name="title_icon_125" path="image\title_icon_125.png" />
+		<file name="title_icon_150" path="image\title_icon_150.png" />
+		<file name="title_icon_175" path="image\title_icon_175.png" />
+		<file name="title_icon_200" path="image\title_icon_200.png" />
+		<file name="traymenu_icons" path="image\traymenu_icons.png" />
+
+    <file name="menu_shadow" path="image\menu_shadow.png" />
+    <file name="menu_border" path="image\menu_border.png" />
+    
+  </image>
+</resource>

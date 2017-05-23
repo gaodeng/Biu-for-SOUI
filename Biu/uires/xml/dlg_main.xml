@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<SOUI name="mainWindow" title="@string/title" sendWheel2Hover="1"  bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="800" height="600" margin="20,5,5,5" resizable="1" wndType="appMain" toolWindow="0" translucent="0" trCtx="dlg_main">
+  <root  skin="_skin.shadow" >
+    <window colorBkgnd="#F9FAFC"  font="face:微软雅黑">
+      
+      <caption pos="0,0,-0,@80dp" skin="caption_skin" colorText="#E5E9F2"  layout="hbox" gravity="top" padding="5dp,0dp,5dp,0dp">
+        <window margin="10dp" enable="0" msgTransparent="1" >
+          <img enable="0" size="-1,-1"  skin="title_icon"/>
+          <window  size="5,0" />
+          <text enable="0" size="-1,-1" extend_left="5dp">@string/title</text>
+          
+        </window>
+        
+        <window size="0,0" weight="1" msgTransparent="1"   visible="0" >
+         
+        </window>
+        
+        <imgbtn size="-1,-1" name="btn_menu" skin="sys_btn_menu"  animate="1" />
+        <imgbtn size="-1,-1" name="btn_min" skin="sys_btn_min"  animate="1" />
+        <window size="-1,-1">
+          <imgbtn pos="0,0" name="btn_max" skin="sys_btn_max"  animate="1" />
+          <imgbtn pos="0,0" name="btn_restore" skin="sys_btn_restore"  show="0" animate="1" />
+        </window>
+        <imgbtn size="-1,-1" name="btn_close" skin="sys_btn_close"  tip="close" animate="1"/>
+
+       
+      </caption>
+
+     
+
+
+      <window pos="0,[0,-0,-0"  colorText="#1F2D3D" clipClient="1" >
+        <!--<scrollview pos="0,0,-0,-0" viewSize="-1,-1">-->
+
+        <window size="0,0" layout="hbox" visible="0">
+          <radio size="-1,-1" padding="10,5,10,5" checked="1" text="scale 1" name="btn_scale_100"/>
+          <radio size="-1,-1" padding="10,5,10,5" extend_left="10dp" text="scale 1.25" name="btn_scale_125"/>
+          <radio size="-1,-1" padding="10,5,10,5" extend_left="10dp" text="scale 1.5" name="btn_scale_150"/>
+          <radio size="-1,-1" padding="10,5,10,5" extend_left="10dp" text="scale 1.75" name="btn_scale_175"/>
+          <radio size="-1,-1" padding="10,5,10,5" extend_left="10dp" text="scale 2.0" name="btn_scale_200"/>
+        </window>
+        
+         
+
+        
+
+        <!--<window pos="5,[2,-5,-300"  colorBkgnd="#00ff00"  >
+          <iectrl pos="0,0,-0,-0" colorBkgnd="#00ffff"  url="http://www.baidu.com"/>
+        </window>-->
+
+        <window pos="5,[2,-5,-5" colorBkgnd="#fafafa">
+          <realwnd pos="0,0,-0,-0"  name="cefbrowser" wndclass="cef_cls" id="10020" wndname="cefbrowser"/>
+        </window>
+          <!--<window pos="10dp,[20dp" size="1100dp,800dp" colorBkgnd="#00ff00"  >
+            <wkeWebkit pos="0,0,-0,-0" url="http://www.icyarrow.com" name="wke_test"/>
+          </window>-->
+          
+        <tabctrl visible="0" size="full,full" pos="0dp,[0dp" weight="1" animateSteps="0" curSel="1" colorBkgnd="#ffffff" tabAlign="left" tabInterSize="2" tabHeight="30" tabWidth="120">
+          <page title="CEF">
+
+            
+            
+            
+          </page>
+
+          <page title="IE">
+
+          
+
+
+          </page>
+          <page title="WAITING">
+            <mclistview name="mclv_test" colorBkgnd="@color/white" pos="0,0,-0,-0" headerHeight="30dp">
+              <header align="center" itemSwapEnable="1" fixWidth="0" font="underline:0,adding:-3" sortHeader="1" colorBkgnd="#ffffff" >
+                <items>
+                  <item width="150dp">name</item>
+                  <item width="150dp">file size</item>
+                  <item width="150dp">download speed</item>
+                  <item width="150dp">download progress</item>
+                </items>
+              </header>
+              <template itemHeight="60dp" colorHover="#f8f8f8" colorSelected="#f5f5f5">
+                <window name="col1" clipClient="1">
+                  <text name="txt_name" pos="30dp,|0" offset="0,-0.5" font="bold:1,adding:-1"/>
+                </window>
+                <window name="col2" clipClient="1">
+                  <text name="txt_gender" pos="|0,|0" offset="-0.5,-0.5" />
+                </window>
+                <window name="col3" clipClient="1">
+                  <text name="txt_age" pos="|0,|0" offset="-0.5,-0.5"/>
+                </window>
+                <window  name="col4" clipClient="1">
+                  <text name="txt_score" pos="|0,|0" offset="-0.5,-0.5"    colorText="#ff0000"/>
+                </window>
+              </template>
+
+            </mclistview>
+          </page>
+          <page title="STOPED">
+            <edit pos="|0,|0,@200dp,@30dp" offset="-0.5,-0.5" colorBkgnd="#cccccc" font="size:18dp">编辑窗口</edit>
+          </page>
+        </tabctrl>
+        
+        
+        
+          <!--<window colorBkgnd="#252A2F" pos="10dp,[20dp" size="300dp,200dp" >
+            <text pos="|0,|0" offset="-0.5,-0.5" colorText="#ffffff"  >这是一个由SOUI向导生成的APP框架</text>
+            <button pos="|0,["  colorText="#252A2F" colorBkgnd="#252A2F" inset="4,4,4,4" name="zh_cn" offset="-1.1,0" text="lang_cn" />
+            <button pos="|0,[" colorText="#252A2F" colorBkgnd="#252A2F" inset="4,4,4,4" name="jp" offset="-1.1,0" text="lang_jp" />
+          </window>-->
+      <!--</scrollview>-->
+      </window>
+     
+    </window>
+  </root>
+</SOUI>
